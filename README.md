@@ -17,12 +17,6 @@
 | **`large-v3`** | 3GB | 매우 느림  | **최고 정확도** | ✅ |
 
 
-
-Whisper 모델 다운로드:
-```bash
-curl -L -o models/ggml-medium.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin
-```
-
 </br>
 
 ## 📌 **기능**
@@ -62,7 +56,10 @@ cmake 설치
 ```bash
 brew install cmake
 ```
-
+Whisper 중간 모델 다운로드:
+```bash
+curl -L -o models/ggml-medium.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin
+```
 ```bash
 cd whisper
 mkdir build
