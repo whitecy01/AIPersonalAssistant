@@ -103,6 +103,6 @@ python wake_word_whisper.py
 4️⃣ AI 응답을 받아 Python에서 TTS로 변환 후 음성 출력 </br>
 
 # 결과
-![alt text](image.png)
+![alt text](./result/image.png)
 
-![alt text](image-1.png)
+![alt text](./result/image-1.png)
